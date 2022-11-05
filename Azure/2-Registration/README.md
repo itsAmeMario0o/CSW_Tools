@@ -6,8 +6,8 @@ These scripts will guide you to:
 </br>
 Powershell - Create a CSV file with information to complete the connector integration</br>
 Terraform - The output and `terraform.tfstate` will have the information to complete the connector integration
-</br>
-For the powershell script, ensure AzureAD module is installed. With a powershell opened as administrator:
+
+</br></br>For the powershell script, ensure AzureAD module is installed. With a powershell opened as administrator:
 
 `Install-Module AzureAD`</br>`Import-Module AzureAD`</br>`Import-module Az.Resources`
 
