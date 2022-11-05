@@ -129,7 +129,7 @@ resource "tetration_filter" "TAAS" {
                                     "type": "eq",
                                     "value": "129.146.92.7"}]}
   )
-  app_scope_id = "63481c10755f0275ed2a9df5" # Internet Scope
+  app_scope_id = "SCOPE ID HERE" # Internet Scope
   primary      = true
   public       = false
 }
