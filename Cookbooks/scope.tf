@@ -12,5 +12,5 @@ resource "tetration_scope" "internet" {
                                                   "field": "ip",
                                                   "value": "192.168.0.0/16"}]}}
   )
-  parent_app_scope_id = "PASTE SCOPE ID HERE" #
+  parent_app_scope_id = "PASTE SCOPE ID HERE" # Root Scope
 }
