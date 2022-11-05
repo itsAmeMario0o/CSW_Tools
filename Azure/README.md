@@ -1,23 +1,29 @@
 # Azure Tools
 Tools to assist in integrating Secure Workload in your Azure environment
 
-Azure scripts come in two flavors, a powershell and a terraform variant. 
+The CSW Azure Connector script come in two flavors, a powershell and a terraform variant. 
+
+Execute only ONE of these scripts! 
 
 Both assume Azure CLI is installed.
 [Install the Azure CLI](https://learn.microsoft.com/en-us/dotnet/azure/install-azure-cli)
 
 For the terraform variant:
-`terraform init`
+</br>`terraform init`
 </br>`terraform plan`
 </br>`terraform apply`
 
 For the powershell variant:
 
-Ensure this module is installed. With a powershell opened as administrator:
+Ensure the `Az` module is installed. With a powershell opened as administrator:
 
 `Install-Module Az`
 </br>`Import-Module Az`
 
-For more information please see the following link:
+For more information please see the following links:
 
 [Install Azure Az Powershell module](https://learn.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-9.0.1)
+
+</br>[Terraform Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
+
+</br>[Terraform Azure Active Directory Provider](https://registry.terraform.io/providers/hashicorp/azuread/latest/docs)
