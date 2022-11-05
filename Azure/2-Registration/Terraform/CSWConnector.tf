@@ -16,10 +16,17 @@ resource "azuread_application" "secureworkload-app" {
   }
 }
 
+# Define key rotation 
+resource "time_rotating" "rotate" {
+  rotation_days = 90
+}
+
 # Create a Client Secret
 resource "azuread_application_password" "secret" {
   application_object_id = azuread_application.secureworkload-app.object_id
-  end_date_relative     = "2160h" # expire in 3 months
+  rotate_when_changed = {
+    rotation = time_rotating.rotate.id
+  }
 }
 
 # Create Service Principal
@@ -74,6 +81,7 @@ resource "azurerm_role_definition" "secureworkload-role" {
     ]
   }
 }
+
 # Assign custom role to service principal
 resource "azurerm_role_assignment" "assignrole" {
   scope              = data.azurerm_subscription.primary.id
