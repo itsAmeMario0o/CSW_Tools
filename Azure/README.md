@@ -9,8 +9,10 @@ For the terraform variant:
 </br>
 [Authenticate using the Azure CLI](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azure_cli)
 </br>
+</br>
 Don't have Azure CLI 😢
-[Install the Azure CLI](https://learn.microsoft.com/en-us/dotnet/azure/install-azure-cli)
+</br>[Install the Azure CLI](https://learn.microsoft.com/en-us/dotnet/azure/install-azure-cli)
+</br>
 </br>
 Then:
 </br>`terraform init`
