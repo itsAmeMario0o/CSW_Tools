@@ -9,6 +9,11 @@
 resource "azuread_application" "secureworkload-app" {
   display_name     = "Cisco Secure Workload"
   prevent_duplicate_names = true
+
+  feature_tags {
+    enterprise = true
+    gallery    = true
+  }
 }
 
 # Create a Client Secret
