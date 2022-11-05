@@ -9,5 +9,5 @@ output "tenant_id" {
   value = data.azuread_client_config.main.tenant_id
 }
 output "subscription_id" {
-  value = data.azurerm_subscription.primary.subscription_id
+  value = data.azurerm_subscription.primary.id
 }
