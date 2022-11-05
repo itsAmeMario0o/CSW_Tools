@@ -3,3 +3,5 @@
 terraform.tfstate
 terraform.tfstate.backup
 connector.csv
+Azure_ARM.json
+.DS_Store
