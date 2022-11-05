@@ -3,8 +3,8 @@
 These scripts will guide you to:
 1. Create a application registration in Azure AD
 2. Create a custom role and assign it permissions
-3a. Powershell Only - Create a CSV file with information to complete the connector integration
-3b. Terraform Only - The output and `terraform.tfstate` will have the information to complete the connector integration
+</br>3a. Powershell Only - Create a CSV file with information to complete the connector integration
+</br>3b. Terraform Only - The output and `terraform.tfstate` will have the information to complete the connector integration
 
 For the powershell script, ensure AzureAD module is installed. With a powershell opened as administrator:
 
