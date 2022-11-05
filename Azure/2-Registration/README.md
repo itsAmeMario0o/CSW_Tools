@@ -12,7 +12,7 @@ For the powershell script, ensure AzureAD module is installed. With a powershell
 On a windows machine and cannot run the script due to execution policy?</br>`Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser`
 
 The `AzCSWConnect.ps1` script creates a client secret for the connector.
-</br>The `CSWConnector.tf` will save the client secret in the `terraform.tfstate` that is generated. Look for the `"client_secret"` and its associated value.
+</br></br>The `CSWConnector.tf` will save the client secret in the `terraform.tfstate` that is generated. Look for the `"client_secret"` and its associated value.
 
 Secure Workload also supports the use of certificates. 
 
