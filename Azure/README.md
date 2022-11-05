@@ -23,7 +23,5 @@ Ensure the `Az` module is installed. With a powershell opened as administrator:
 For more information please see the following links:
 
 [Install Azure Az Powershell module](https://learn.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-9.0.1)
-
 </br>[Terraform Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
-
 </br>[Terraform Azure Active Directory Provider](https://registry.terraform.io/providers/hashicorp/azuread/latest/docs)
