@@ -5,13 +5,12 @@ The CSW Azure Connector script come in two flavors, a powershell and a terraform
 
 Execute only ONE of these scripts! 
 
-Both assume Azure CLI is installed.
-[Install the Azure CLI](https://learn.microsoft.com/en-us/dotnet/azure/install-azure-cli)
-
 For the terraform variant:
 </br>
 [Authenticate using the Azure CLI](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azure_cli)
 </br>
+Don't have Azure CLI 😢
+[Install the Azure CLI](https://learn.microsoft.com/en-us/dotnet/azure/install-azure-cli)
 </br>
 Then:
 </br>`terraform init`
