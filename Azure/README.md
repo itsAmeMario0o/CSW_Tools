@@ -1,7 +1,7 @@
 # Azure Tools
 Tools to assist in integrating Secure Workload in your Azure environment
 
-The CSW Azure Connector script come in two flavors, a powershell and a terraform variant. 
+The CSW Azure Connector script comes in two flavors, a powershell and a terraform variant. 
 
 Execute only ONE of these scripts! 
 
