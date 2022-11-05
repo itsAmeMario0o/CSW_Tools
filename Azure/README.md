@@ -12,6 +12,7 @@ For the terraform variant:
 </br>
 [Authenticate using the Azure CLI](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azure_cli)
 </br>
+</br>
 Then:
 </br>`terraform init`
 </br>`terraform plan`
