@@ -1,3 +1,9 @@
+######################################################
+#
+#                    Create a Scope
+#
+######################################################
+
 resource "tetration_scope" "internet" {
   short_name          = "INTERNET"
   short_query_value   = jsonencode( { "type": "not",

@@ -1,3 +1,10 @@
+######################################################
+#
+#             Create a Inventory Filter
+#
+######################################################
+
+# FYI - Enable Collection Rules to include the below addresses
 resource "tetration_filter" "TAAS" {
   name         = "TAAS"
   query        = jsonencode(
