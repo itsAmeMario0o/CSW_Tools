@@ -14,3 +14,18 @@ resource "tetration_scope" "internet" {
   )
   parent_app_scope_id = "PASTE SCOPE ID HERE" # Root Scope
 }
+resource "tetration_scope" "internal" {
+  short_name          = "INTERNAL"
+  short_query_value   = jsonencode( { "type": "or",
+                     "filters": [ { "type": "subnet",
+                                    "field": "ip",
+                                    "value": "10.0.0.0/8"},
+                                  { "type": "subnet",
+                                    "field": "ip",
+                                    "value": "172.16.0.0/12"},
+                                  { "type": "subnet",
+                                    "field": "ip",
+                                    "value": "192.168.0.0/16"}]}
+  )
+  parent_app_scope_id = "PASTE SCOPE ID HERE" # Root Scope
+}
