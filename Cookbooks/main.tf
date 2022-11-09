@@ -8,8 +8,8 @@ terraform {
 }
 
 provider "tetration" {
-  api_key                  = "2f910f3ad5e347bca4eb9e9c904d5768"
-  api_secret               = "d710021a5b04124f747830891c679679ebf3d250"
-  api_url                  = "https://tet-pov-rtp1.cpoc.co/"
+  api_key                  = "API KEY"
+  api_secret               = "SECRET"
+  api_url                  = "CSW URL"
   disable_tls_verification = false
 }
