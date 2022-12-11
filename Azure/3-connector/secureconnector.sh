@@ -1,10 +1,10 @@
 # Update - HOST / API KEY / API SECRET / $ROOTSCOPE_NAME
 
 #!/bin/bash
-HOST="https://<UI_VIP_OR_DNS_FOR_TETRATION_DASHBOARD>"
-API_KEY="<API_KEY>"
-API_SECRET="<API_SECRET>"
-ROOTSCOPE_NAME="<ROOT_SCOPE_NAME>" # if the name contains spaces or special characters, it should be url-encoded
+HOST="https://https://tet-pov-rtp1.cpoc.co/"
+API_KEY="7bffeb931b2f4006ba3a351420f2099a"
+API_SECRET="b6708d8c8962ef92a0eaf325f7ba3dd0404e74b2"
+ROOTSCOPE_NAME="ROOEZ" # if the name contains spaces or special characters, it should be url-encoded
 TOKEN_FILE="registration.token"
 INSECURE=1 # Set to 0 if you want curl to verify the identity of the cluster
 

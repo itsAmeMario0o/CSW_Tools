@@ -1,7 +1,9 @@
+resource "random_pet" "prefix" {}
+
 # Create a resource group
 resource "azurerm_resource_group" "cswrg" {
-    name     = "csw-rg"
-    location = var.location.value
+  name     = "csw-${random_pet.prefix.id}-rg"
+  location = var.location.value
 }
 
 # Create virtual network

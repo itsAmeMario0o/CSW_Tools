@@ -1,8 +1,8 @@
 variable location {
     type = map(string)
     default = {
-      value = "Central US"
-      suffix = "centralus"
+      value = "East US"
+      suffix = "eastus"
     }
 }
 variable "ssh_public_key" {
