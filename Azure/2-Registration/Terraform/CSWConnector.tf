@@ -45,6 +45,7 @@ resource "azurerm_role_definition" "secureworkload-role" {
   scope       = data.azurerm_subscription.primary.id
   description = "Cisco Secure Workload (CSW) generated policy."
 
+# Permissions revised to reflect 3.7 updates
   permissions {
     actions = [
       "Microsoft.Network/networkInterfaces/read",
