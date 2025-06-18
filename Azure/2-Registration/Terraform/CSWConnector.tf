@@ -73,6 +73,7 @@ resource "azurerm_role_definition" "secureworkload-role" {
       "Microsoft.Network/networkSecurityGroups/delete",
       "Microsoft.Network/networkSecurityGroups/join/action",
       "Microsoft.Network/networkInterfaces/write",
+      "Microsoft.Network/virtualNetworks/subnets/write",
       "Microsoft.Network/virtualNetworks/subnets/join/action",
       "Microsoft.Network/networkWatchers/flowLogs/write",
       "Microsoft.Resources/subscriptions/resourceGroups/read",
